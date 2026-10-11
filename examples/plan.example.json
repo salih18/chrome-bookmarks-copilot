@@ -1,0 +1,12 @@
+{
+  "operations": [
+    {"op": "mkdir", "path": "bar/Dev/Docs"},
+    {"op": "move", "id": "123", "to": "bar/Dev/Docs"},
+    {"op": "rename", "id": "123", "name": "MDN - Fetch API"},
+    {"op": "set_url", "id": "130", "url": "https://new.example.com/page"},
+    {"op": "move", "id": "140", "to": "other/Archive"},
+    {"op": "delete", "id": "151"},
+    {"op": "sort", "folder": "bar/Dev", "recursive": true},
+    {"op": "prune_empty"}
+  ]
+}

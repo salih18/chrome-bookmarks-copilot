@@ -1,0 +1,4 @@
+.bmk/
+__pycache__/
+*.pyc
+*.bmk-tmp

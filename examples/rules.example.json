@@ -1,0 +1,12 @@
+{
+  "scope": "other",
+  "rules": [
+    {"folder": "bar/Dev/Code", "domains": ["github.com", "gitlab.com", "bitbucket.org"]},
+    {"folder": "bar/Dev/Q&A", "domains": ["stackoverflow.com", "stackexchange.com", "superuser.com"]},
+    {"folder": "bar/Dev/Docs", "domains": ["developer.mozilla.org", "docs.python.org", "react.dev"], "url_regex": "://docs?\\."},
+    {"folder": "bar/Learning", "domains": ["coursera.org", "udemy.com", "edx.org", "khanacademy.org"]},
+    {"folder": "bar/Media/Video", "domains": ["youtube.com", "youtu.be", "vimeo.com", "netflix.com"]},
+    {"folder": "bar/News", "domains": ["news.ycombinator.com", "reddit.com", "bbc.com", "theverge.com"]},
+    {"folder": "bar/Shopping", "domains": ["amazon.com", "ebay.com", "aliexpress.com"], "name_regex": "\\b(shop|store|cart)\\b"}
+  ]
+}

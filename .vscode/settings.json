@@ -1,0 +1,8 @@
+{
+  "chat.useAgentSkills": true,
+  "chat.promptFiles": true,
+  "chat.tools.terminal.autoApprove": {
+    "/^python3? bmk\\.py (info|profiles|stats|tree|list|search|export|backups)\\b/": true
+  },
+  "files.exclude": { "**/__pycache__": true }
+}
